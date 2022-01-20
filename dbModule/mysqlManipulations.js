@@ -12,3 +12,6 @@ const connection = mysql.createConnection( {
 const sqldolgozok = "SELECT nev, fizetes, onev FROM dolgozo INNER JOIN osztaly ON osztaly=o_azon";
 const sqlures="SELECT o_nev FROM osztaly WHERE o_azon NOT IN (SELECT osztaly FROM dolgozo)";
 
+module.exports.dolgozo = function (callback){
+    
+}
