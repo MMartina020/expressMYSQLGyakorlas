@@ -1,0 +1,28 @@
+body{
+    background-color: aquamarine;
+}
+
+h1{
+    color: crimson;
+    text-align: center;
+}
+
+#gombok{
+    width: 400px;
+    height: 60px;
+    margin: 10px auto 10px auto;
+    padding: 10px;
+    background-color: beige;
+}
+
+#bal{
+    width: 50%;
+    float: left;
+    margin: 0 auto;
+}
+
+#jobb{
+    width: 50%;
+    float: right;
+    margin: 0 auto;
+}
